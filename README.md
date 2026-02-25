@@ -62,3 +62,14 @@ Here is an example of what your entry in the `index.json` array should look like
     }
   }
 ]
+```
+
+### Key Manifest Fields:
+
+* `id`: The unique URL or URN identifier of your plugin. (This is where the Memizy app will fetch the plugin from).
+* `capabilities.actions`: What your tool does (`render` for players, `edit` for creators).
+* `capabilities.types`: The exact OQSE item types your plugin knows how to handle.
+
+<div align="center">
+<i>Maintained with ❤️ by the Memizy Team.</i>
+</div>
