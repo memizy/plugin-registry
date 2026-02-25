@@ -1,0 +1,16 @@
+[
+  {
+    "$schema": "https://raw.githubusercontent.com/memizy/oqse-specification/main/schemas/manifest/v0.json",
+    "version": "0.1.0",
+    "id": "https://memizy.github.io/plugin-let-me-in/",
+    "appName": "Let Me In",
+    "description": "3D Tower Defense educational minigame. Survive the zombie horde by answering questions!",
+    "author": "Memizy Team",
+    "studyMode": "game",
+    "questionDensity": "medium",
+    "capabilities": {
+      "actions": ["render"],
+      "types": ["mcq-single"]
+    }
+  }
+]
