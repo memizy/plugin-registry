@@ -27,7 +27,7 @@ This file is an array of **Application Manifests**. Every time a user opens a st
 
 Have you built a cool new quiz player or a visual editor? Adding it to the Memizy ecosystem is simple:
 
-1. Build your plugin using the [Memizy Plugin SDK](https://github.com/memizy/plugin-api).
+1. Build your plugin using the [Memizy Plugin SDK](https://github.com/memizy/plugin-sdk).
 2. Host your plugin's compiled `.html` or `.js` file somewhere accessible (e.g., GitHub Pages, Vercel, or raw via jsDelivr).
 3. Fork this `plugin-registry` repository.
 4. Add your **Application Manifest** object to the array in `index.json`.
