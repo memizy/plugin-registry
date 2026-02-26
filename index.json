@@ -12,5 +12,19 @@
       "actions": ["render"],
       "types": ["mcq-single"]
     }
+  },
+  {
+    "$schema": "https://raw.githubusercontent.com/memizy/oqse-specification/main/schemas/manifest/v0.json",
+    "version": "0.1.0",
+    "id": "https://memizy.github.io/plugin-3d-anatomy/", 
+    "appName": "3D Anatomy Explorer",
+    "description": "Interactive 3D educational module for exploring and learning anatomy.",
+    "author": "Memizy Team",
+    "studyMode": "interactive",
+    "questionDensity": "medium",
+    "capabilities": {
+      "actions": ["render"],
+      "types": ["flashcard", "mcq-single"]
+    }
   }
 ]
