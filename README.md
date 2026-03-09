@@ -46,9 +46,9 @@ Here is an example of what your entry in the `index.json` array should look like
 ```json
 [
   {
-    "$schema": "[https://raw.githubusercontent.com/memizy/oqse-specification/main/schemas/manifest/v0.json](https://raw.githubusercontent.com/memizy/oqse-specification/main/schemas/manifest/v0.json)",
+    "$schema": "https://raw.githubusercontent.com/memizy/oqse-specification/main/schemas/manifest/v0.json",
     "version": "1.0",
-    "id": "[https://memizy.com/plugins/medical-drill-player](https://memizy.com/plugins/medical-drill-player)",
+    "id": "https://memizy.com/plugins/medical-drill-player",
     "appName": "Memizy Medical Drill Player",
     "description": "Fast, distraction-free player optimized for MCQ exams.",
     "author": "Memizy Team",
