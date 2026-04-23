@@ -10,6 +10,12 @@
 
 Welcome to the **Plugin Registry**, the central hub where developers publish their tools (players, editors, validators) for the [Memizy Ecosystem](https://github.com/memizy/memizy).
 
+<br>
+
+[![Official](https://img.shields.io/badge/JSON-Official-7E57C2?style=for-the-badge&logo=json&logoColor=white)](https://cdn.jsdelivr.net/gh/memizy/plugin-registry@main/official.json)
+[![Verified](https://img.shields.io/badge/JSON-Verified-42A5F5?style=for-the-badge&logo=json&logoColor=white)](https://cdn.jsdelivr.net/gh/memizy/plugin-registry@main/verified.json)
+[![Community](https://img.shields.io/badge/JSON-Community-66BB6A?style=for-the-badge&logo=json&logoColor=white)](https://cdn.jsdelivr.net/gh/memizy/plugin-registry@main/community.json)
+
 </div>
 
 ---
