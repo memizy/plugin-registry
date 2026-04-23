@@ -1,30 +1,71 @@
 [
   {
-    "$schema": "https://raw.githubusercontent.com/memizy/oqse-specification/main/schemas/manifest/v0.json",
-    "version": "0.1.0",
-    "id": "https://memizy.github.io/plugin-let-me-in/",
-    "appName": "Let Me In",
-    "description": "3D Tower Defense educational minigame. Survive the zombie horde by answering questions!",
-    "author": "Memizy Team",
-    "studyMode": "game",
-    "questionDensity": "medium",
+    "$schema": "https://cdn.jsdelivr.net/gh/memizy/oqse-specification@main/schemas/oqse-manifest-v0.1.json",
+    "version": "0.1",
+    "pluginVersion": "0.1.0",
+    "id": "https://memizy.github.io/plugin-learn/",
+    "appName": "Learn Plugin",
+    "description": "Browse study set items grouped by topic. Self-assess your knowledge with traffic-light confidence dots.",
+    "author": {
+      "name": "Memizy"
+    },
+    "license": "MIT",
+    "emoji": "📖",
+    "studyMode": "drill",
     "capabilities": {
-      "actions": ["render"],
-      "types": ["mcq-single"]
+      "actions": [
+        "render"
+      ],
+      "types": [
+        "flashcard",
+        "mcq-single",
+        "mcq-multi",
+        "true-false",
+        "match-pairs",
+        "sort-items",
+        "short-answer",
+        "note"
+      ],
+      "features": [
+        "markdown",
+        "math",
+        "html"
+      ]
     }
   },
   {
-    "$schema": "https://raw.githubusercontent.com/memizy/oqse-specification/main/schemas/manifest/v0.json",
-    "version": "0.1.0",
-    "id": "https://memizy.github.io/plugin-3d-anatomy/", 
-    "appName": "3D Anatomy Explorer",
-    "description": "Interactive 3D educational module for exploring and learning anatomy.",
-    "author": "Memizy Team",
-    "studyMode": "interactive",
-    "questionDensity": "medium",
+    "$schema": "https://cdn.jsdelivr.net/gh/memizy/oqse-specification@main/schemas/oqse-manifest-v0.1.json",
+    "version": "0.1",
+    "pluginVersion": "0.1.0",
+    "id": "https://memizy.github.io/plugin-practice/",
+    "appName": "Practice Mode",
+    "description": "Classic Leitner spaced repetition drilling. Focuses on items you don't know well yet.",
+    "author": {
+      "name": "Memizy"
+    },
+    "license": "MIT",
+    "emoji": "🏋️",
+    "studyMode": "drill",
+    "questionDensity": "high",
     "capabilities": {
-      "actions": ["render"],
-      "types": ["flashcard", "mcq-single"]
+      "actions": [
+        "render"
+      ],
+      "types": [
+        "flashcard",
+        "mcq-single",
+        "mcq-multi",
+        "true-false",
+        "match-pairs",
+        "sort-items",
+        "short-answer",
+        "note"
+      ],
+      "features": [
+        "markdown",
+        "math",
+        "html"
+      ]
     }
   }
 ]

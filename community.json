@@ -1,1 +1,31 @@
-[]
+[
+    {
+        "$schema": "https://cdn.jsdelivr.net/gh/memizy/oqse-specification@main/schemas/oqse-manifest-v0.1.json",
+        "version": "0.1",
+        "id": "https://memizy.github.io/plugin-pin-on-3d-model/",
+        "pluginVersion": "0.1.0",
+        "appName": "Pin na 3D modelu",
+        "description": "Interaktivní kvíz pro připínání správných částí na 3D modelu.",
+        "locales": [
+            "cs"
+        ],
+        "author": {
+            "name": "Memizy"
+        },
+        "capabilities": {
+            "actions": [
+                "render"
+            ],
+            "types": [
+                "pin-on-model"
+            ],
+            "assets": {
+                "model": [
+                    "model/gltf-binary",
+                    "model/gltf+json",
+                    "application/octet-stream"
+                ]
+            }
+        }
+    }
+]
