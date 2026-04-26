@@ -65,6 +65,14 @@ Here is an example of what your entry in the `index.json` array should look like
       "assets": null,
       "features": ["markdown"],
       "itemProperties": ["explanation", "incorrectFeedback"]
+    },
+    "appSpecific": {
+      "memizy": {
+        "pluginSdk": {
+          "apiVersion": "0.3",
+          "minimumHostApiVersion": "0.3"
+        }
+      }
     }
   }
 ]
