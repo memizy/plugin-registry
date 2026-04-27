@@ -32,6 +32,9 @@
         "pluginSdk": {
           "apiVersion": "0.3",
           "minimumHostApiVersion": "0.3"
+        },
+        "registry": {
+          "isStandaloneFile": true
         }
       }
     }
