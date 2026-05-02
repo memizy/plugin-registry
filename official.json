@@ -30,7 +30,8 @@
         "markdown",
         "math",
         "html"
-      ]
+      ],
+      "assets": { "image": ["*"], "audio": ["*"], "video": ["*"], "model": null }
     },
     "appSpecific": {
       "memizy": {
@@ -76,7 +77,8 @@
         "markdown",
         "math",
         "html"
-      ]
+      ],
+      "assets": { "image": ["*"], "audio": ["*"], "video": ["*"], "model": null }
     },
     "appSpecific": {
       "memizy": {
